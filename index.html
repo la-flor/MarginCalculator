@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        text-align: center;
+        background-color: black;
+        color: rgb(215, 236, 226);
+        color: #DDC9A3;
+        min-height: 350px;
+        width: 340px;
+      }
+
+      h1 {
+        margin: 20px;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+
+      .form-group {
+        font-weight: bold;
+      }
+
+      input {
+        text-align: center;
+      }
+
+      .btn {
+        border-color: whitesmoke;
+        color: whitesmoke;
+        font-weight: bold;
+        border-width: 2px;
+        margin: 20px;
+        width: 280px;
+      }
+
+      #results {
+        color: #DDC9A3;
+      }
+
+      #retail-price {
+        color: #DDC9A3;
+      }
+
+      div {
+        margin: 20px;
+      }
+    </style>
+
+</head>
+<body>
+    <h1><i class="fas fa-balance-scale"></i> Margin Calculator</h1>
+    
+    <form class="form">
+        <div class="form-group">
+          <label for="wholesalePrice">Cost</label>
+          <input type="number" min="0.00" step="any" class="form-control" id="wholesalePrice">
+        </div>
+        
+        <button type="submit" id="btn" class="btn btn-outline-primary">Calculate</button>
+    </form>
+
+    <div>
+        <table class="table" id="results">
+          <th>Margin</th>
+          <th>Suggested Price</th>
+
+          <tbody id="retail-price">
+            <tr>
+              <td>30%</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>32%</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>35%</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>37%</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>40%</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>45%</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

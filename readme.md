@@ -1,3 +1,7 @@
+# Live Project:
+https://chrome.google.com/webstore/detail/margin-calculator/kedbgnkbomijpjoangfmkdhoeikhmche
+
+
 # Margin Calculator
 
 This calculator is a publically available Google Chrome Extension available on the Chrome Web Store labeled as **Margin Calculator** under the ***Productivity*** category.  I created this for, and it is used by CompetitiveCyclist and Backcountry employees to help calculate the ability to discount merchandise items for customers to increase sales and maintain good relationships with customers.

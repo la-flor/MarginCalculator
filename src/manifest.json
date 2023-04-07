@@ -12,6 +12,5 @@
     },
     "default_title": "Margin Calculator",
     "default_popup": "index.html"
-  },
-  "permissions": ["storage"]
+  }
 }
